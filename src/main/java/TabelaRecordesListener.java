@@ -1,4 +1,3 @@
 public interface TabelaRecordesListener {
-    public void recordesActualizados(TabelaRecordes recordes);
-
+    void recordesActualizados(TabelaRecordes recordes);
 }

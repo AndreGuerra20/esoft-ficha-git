@@ -61,10 +61,11 @@ public class MinesFinder extends JFrame {
         new MinesFinder("Mines Finder").setVisible(true);
     }
     private void sairButtonActionPerformed(ActionEvent e) {
+        guardarRecordesDisco();
         System.exit(0);
     }
     private void jogoFacilButtonActionPerformed(ActionEvent e) {
-        var janela = new JanelaDeJogo(new CampoMinado(9,9,3),recordesFacil);
+        var janela = new JanelaDeJogo(new CampoMinado(9,9,  10),recordesFacil);
         janela.setVisible(true);
     }
     private void btnJogoMedioActionPerformed(ActionEvent e) {
